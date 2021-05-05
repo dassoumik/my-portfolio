@@ -1,4 +1,5 @@
 import './App.css';
+import SideNav from './components/SideNav'
 import {
   BrowserRouter as Router,
   Switch,
@@ -9,6 +10,8 @@ import {
 function App() {
   return (
     <div className="App">
+     <SideNav></SideNav>
+
       
     </div>
   );
