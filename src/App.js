@@ -10,9 +10,7 @@ import {
 function App() {
   return (
     <div className="App">
-     <SideNav></SideNav>
-
-      
+     <SideNav name="Soumik Das"></SideNav>
     </div>
   );
 }
