@@ -18,33 +18,38 @@
     /* width: 25%; */
     /* position: fixed; */
     /* z-index: 1; */
-    margin-top: 10px;
+    margin-top: 0;
+    margin-bottom: 20px;
     margin-left: 5px;
     background-color: #232323;
     transition: .5s ease;
     overflow-x: hidden;
     /* padding-top: 20px; */
     display: flex;
-    flex-direction: column;
+    flex-direction: row;
+    justify-content: space-between;
 }
 
 a {
     text-decoration:none;
     color:antiquewhite;
-    margin-top: 20px;
+    /* margin-top: 20px; */
     margin-right: 10px;
 }
 
 .heading3 {
     color:aqua;
+    text-align: center;
 }
 
 .prof {
     color:aquamarine;
     margin-top: 1em;
+    text-align: center;
 }
 
 .location {
     color:aquamarine;
     margin-top: 2em;
+    text-align: center;
 }
