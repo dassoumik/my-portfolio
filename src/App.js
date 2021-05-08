@@ -1,7 +1,6 @@
 import React from 'react';
 import './App.css';
 import Home from './pages/Home';
-import Media from 'react-media';
 
 import {
   Switch,

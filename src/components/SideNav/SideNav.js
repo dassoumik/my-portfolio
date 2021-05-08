@@ -1,7 +1,4 @@
 import React from 'react';
-import * as bstrap from "react-bootstrap";
-
-// import '../components/FontawesomeIcons';
 import './SideNav.css';
 import self from '../../assets/images/self.jpg';
 import linkedin from '../../assets/images/linkedin.jpg';
@@ -11,23 +8,11 @@ import github from '../../assets/images/github.jpg';
 import resume from '../../assets/images/resume.jpg';
 
 
-
-// import {View, Text, StyleSheet, Picker} from 'react-native';
-// import { FontAwesomeIcon } from '@fortawesome/react-native-fontawesome'
-
-
 const SideNav = (props) => {
-const colmd3 = "col-md-3";
-const contactWrapper = "col-md-6 vertical-menu text-center d-flex in-line fixed";
-const styleWrapper = "color: #b67171;";
-const btnClass = "btn";
-const targetBlank = "_blank";
-const styleContact = "color: #d8c292;";
 
 return (
 <div className={"sidenav"} style={{ width: props.width, paddingTop: '20px' }}>
 <div className={"sidenavsection"}>
-   {/* <a href="#section">About</a> */}
    <a href="/portfolio"  style={{ textDecoration: 'none', color: '#c39e5c' }}>Portfolios</a>
    <a href="/blogs"  style={{ textDecoration: 'none', color: '#c39e5c' }}>Blogs</a>
    <a href="/contact"  style={{ textDecoration: 'none', color: '#c39e5c'}}>Contact</a>

@@ -1,5 +1,6 @@
 import React from 'react';
-import './SideNavRoute.css';
+import * as bstrap from "react-bootstrap";
+import './SideNav.css';
 import self from '../../assets/images/self.jpg';
 import linkedin from '../../assets/images/linkedin.jpg';
 import phone from '../../assets/images/phone.jpg';
@@ -7,12 +8,12 @@ import email from '../../assets/images/email.jpg';
 import github from '../../assets/images/github.jpg';
 import resume from '../../assets/images/resume.jpg';
 
-
-const SideNavRoute = (props) => {
+const SideNav = (props) => {
 
 return (
 <div className={"sidenav"} style={{ width: '15vw', paddingTop: '20px' }}>
 <div className={"sidenavsection"}>
+   {/* <a href="#section">About</a> */}
    <a href="/portfolio"  style={{ textDecoration: 'none', color: '#c39e5c' }}>Portfolios</a>
    <a href="/blogs"  style={{ textDecoration: 'none', color: '#c39e5c' }}>Blogs</a>
    <a href="/contact"  style={{ textDecoration: 'none', color: '#c39e5c'}}>Contact</a>
@@ -43,4 +44,4 @@ return (
  );
 }
 
-export default SideNavRoute;
+export default SideNav;
