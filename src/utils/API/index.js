@@ -99,9 +99,9 @@ const API = {
         title: "LinkedIn",
         image: "../../assets/images/linkedin.jpg",
         gitRepo: "",
-        link: "https://www.linkedin.com/in/soumikdas78",
+        link: "https://www.linkedin.com/in/sd002",
         link1name: "",
-        link2name: "https://www.linkedin.com/in/soumikdas78"
+        link2name: "https://www.linkedin.com/in/sd"
     }, {
         title: "Phone",
         image: "../../assets/images/phone.jpg",
