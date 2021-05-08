@@ -2,7 +2,7 @@ import React from 'react';
 import * as bstrap from "react-bootstrap";
 
 // import '../components/FontawesomeIcons';
-import './SideNav.css';
+import './SideNavRoute.css';
 import self from '../../assets/images/self.jpg';
 import linkedin from '../../assets/images/linkedin.jpg';
 import phone from '../../assets/images/phone.jpg';
@@ -16,7 +16,7 @@ import resume from '../../assets/images/resume.jpg';
 // import { FontAwesomeIcon } from '@fortawesome/react-native-fontawesome'
 
 
-const SideNav = (props) => {
+const SideNavRoute = (props) => {
 const colmd3 = "col-md-3";
 const contactWrapper = "col-md-6 vertical-menu text-center d-flex in-line fixed";
 const styleWrapper = "color: #b67171;";
@@ -25,16 +25,16 @@ const targetBlank = "_blank";
 const styleContact = "color: #d8c292;";
 
 return (
-<div className={"sidenav"} style={{ width: props.width, paddingTop: '20px' }}>
+<div className={"sidenav"} style={{ width: '15vw', paddingTop: '20px' }}>
 <div className={"sidenavsection"}>
    {/* <a href="#section">About</a> */}
    <a href="/portfolio"  style={{ textDecoration: 'none', color: '#c39e5c' }}>Portfolios</a>
    <a href="/blogs"  style={{ textDecoration: 'none', color: '#c39e5c' }}>Blogs</a>
    <a href="/contact"  style={{ textDecoration: 'none', color: '#c39e5c'}}>Contact</a>
    </div>
-   <h3 className="heading3 mt-3 mb-3"><a className="heading3" href="/">{props.name}</a></h3> 
+   <h3 className="heading3 mt-3 mb-3">{props.name}</h3> 
    
-   <div className="mx-auto">
+   <div className="ml-2">
        <img src={self} alt="self"/>
    </div>
    <div className="prof">
@@ -43,7 +43,7 @@ return (
    <div className="location">
        Atlanta, GA
    </div>
-<footer className="footerContacts mt-5 pt-5 mx-auto">
+<footer className="footerContacts mt-5 pt-5">
 <a className={"btn"} target={"_blank"} rel={"noreferrer"} href={"https://github.com/dassoumik"} ><img src={github} alt={"github"} width={"20px"} height={"20px"}/></a>
 <a className={"btn"} target={"_blank"} rel={"noreferrer"} href={"https://www.linkedin.com/in/soumikdas78"} ><img src={linkedin} alt={"linkedin"} width={"20px"} height={"20px"}/></a>
 <a className={"btn"} target={"_blank"} rel={"noreferrer"} href={"tel: 904-414-6550"} data-toggle={"tooltip"} data-placement={"top"} title={"+1-904-414-6550"}><img src={phone} alt={"phone"} width={"20px"} height={"20px"}/></a>
@@ -58,4 +58,4 @@ return (
  );
 }
 
-export default SideNav;
+export default SideNavRoute;

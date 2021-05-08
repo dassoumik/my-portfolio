@@ -3,7 +3,7 @@ import React, { useState, useEffect } from "react";
 
 const API = {
     portfolioData: [{
-        title: "Wheather Dashboard",
+        title: "Work Day Scheduler",
         image: "../../assets/images/wdscheduler_screenshot.jpg",
         gitRepo: "https://github.com/dassoumik/work-day-scheduler/",
         link: "https://dassoumik.github.io/work-day-scheduler/",

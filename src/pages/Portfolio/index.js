@@ -4,6 +4,8 @@ import CardLayout from '../../components/CardLayout';
 import "../../components/Box.css";
 import "./Portfolio.css";
 import SideNav from "../../components/SideNav/SideNav.js";
+import NavBar from "../../components/NavBar/NavBar.js";
+import Media from "react-media";
 
 
 function Portfolio() {
@@ -11,10 +13,14 @@ function Portfolio() {
 
   return(
     <div className="dark-mode">
+       <NavBar/>
       <div className="leftMargin">
       <CardLayout className={"grid leftMargin"} data={portfolioData} />
       </div>
-      <SideNav name="Soumik Das"/>
+  <Media query="(min-width: 600px)">
+
+      <SideNav name="Soumik Das" width="15vw"/>
+  </Media>   
     </div>
   )
 
