@@ -1,0 +1,35 @@
+{
+  "files": {
+    "main.css": "/github.io/my-portfolio/static/css/main.b31fde1b.chunk.css",
+    "main.js": "/github.io/my-portfolio/static/js/main.35924a9d.chunk.js",
+    "main.js.map": "/github.io/my-portfolio/static/js/main.35924a9d.chunk.js.map",
+    "runtime-main.js": "/github.io/my-portfolio/static/js/runtime-main.1ccd2cb9.js",
+    "runtime-main.js.map": "/github.io/my-portfolio/static/js/runtime-main.1ccd2cb9.js.map",
+    "static/css/2.800be05e.chunk.css": "/github.io/my-portfolio/static/css/2.800be05e.chunk.css",
+    "static/js/2.a3fe447a.chunk.js": "/github.io/my-portfolio/static/js/2.a3fe447a.chunk.js",
+    "static/js/2.a3fe447a.chunk.js.map": "/github.io/my-portfolio/static/js/2.a3fe447a.chunk.js.map",
+    "static/js/3.56d0de81.chunk.js": "/github.io/my-portfolio/static/js/3.56d0de81.chunk.js",
+    "static/js/3.56d0de81.chunk.js.map": "/github.io/my-portfolio/static/js/3.56d0de81.chunk.js.map",
+    "index.html": "/github.io/my-portfolio/index.html",
+    "static/css/2.800be05e.chunk.css.map": "/github.io/my-portfolio/static/css/2.800be05e.chunk.css.map",
+    "static/css/main.b31fde1b.chunk.css.map": "/github.io/my-portfolio/static/css/main.b31fde1b.chunk.css.map",
+    "static/js/2.a3fe447a.chunk.js.LICENSE.txt": "/github.io/my-portfolio/static/js/2.a3fe447a.chunk.js.LICENSE.txt",
+    "static/media/city411_screenshot.8350b500.jpg": "/github.io/my-portfolio/static/media/city411_screenshot.8350b500.jpg",
+    "static/media/codequiz_screenshot.3401fc0a.jpg": "/github.io/my-portfolio/static/media/codequiz_screenshot.3401fc0a.jpg",
+    "static/media/github.bda3bc8d.jpg": "/github.io/my-portfolio/static/media/github.bda3bc8d.jpg",
+    "static/media/mashable_blog.7d101232.jpg": "/github.io/my-portfolio/static/media/mashable_blog.7d101232.jpg",
+    "static/media/phone.065c45ec.jpg": "/github.io/my-portfolio/static/media/phone.065c45ec.jpg",
+    "static/media/puppyplay_screenshot.b63dbdd5.jpg": "/github.io/my-portfolio/static/media/puppyplay_screenshot.b63dbdd5.jpg",
+    "static/media/resume.f5b9d5e1.jpg": "/github.io/my-portfolio/static/media/resume.f5b9d5e1.jpg",
+    "static/media/self.a3e614a2.jpg": "/github.io/my-portfolio/static/media/self.a3e614a2.jpg",
+    "static/media/wdscheduler_screenshot.54a2e250.jpg": "/github.io/my-portfolio/static/media/wdscheduler_screenshot.54a2e250.jpg",
+    "static/media/wired_blog.fda017e0.jpg": "/github.io/my-portfolio/static/media/wired_blog.fda017e0.jpg"
+  },
+  "entrypoints": [
+    "static/js/runtime-main.1ccd2cb9.js",
+    "static/css/2.800be05e.chunk.css",
+    "static/js/2.a3fe447a.chunk.js",
+    "static/css/main.b31fde1b.chunk.css",
+    "static/js/main.35924a9d.chunk.js"
+  ]
+}
