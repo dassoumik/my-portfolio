@@ -1,6 +1,5 @@
 .sidenav {
     height: 100%;
-    /* width: 25%; */
     position: fixed;
     z-index: 1;
     top: 0;
@@ -8,23 +7,17 @@
     background-color: #232323;
     transition: .5s ease;
     overflow-x: hidden;
-    /* padding-top: 20px; */
     display: flex;
     flex-direction: column;
 }
 
 .sidenavsection {
-    /* height: 100%; */
-    /* width: 25%; */
-    /* position: fixed; */
-    /* z-index: 1; */
     margin-top: 0;
     margin-bottom: 20px;
     margin-left: 5px;
     background-color: #232323;
     transition: .5s ease;
     overflow-x: hidden;
-    /* padding-top: 20px; */
     display: flex;
     flex-direction: row;
     justify-content: space-between;
@@ -33,7 +26,6 @@
 a {
     text-decoration:none;
     color:antiquewhite;
-    /* margin-top: 20px; */
     margin-right: 10px;
 }
 
@@ -54,3 +46,4 @@ a {
     margin-top: 2em;
     text-align: center;
 }
+

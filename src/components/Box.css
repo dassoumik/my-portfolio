@@ -1,5 +1,4 @@
 .box1 {
-    /* background-color: rgb(29, 3, 71); */
     border-radius: 10px;
     color: black;
     overflow: hidden;
@@ -35,11 +34,6 @@
 .imageDisp {
     flex: auto;
     flex-direction: row;
-    /* margin-top: 20px; */
-    /* margin-left: 20px; */
-    
-    /* width: 400px; */
-    /* height: 200px; */
 }
 
 .imageBox {
@@ -48,7 +42,6 @@
 }
 
 .grey-mode {
-    /* background-color: rgb(6, 2, 12); */
     background-color: #e7e6e1;
 }
 

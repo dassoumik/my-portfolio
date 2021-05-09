@@ -17,15 +17,11 @@ import "../../assets/images/mashable_blog.jpg";
 function CardLayout(props) {
     const boxClass = "box box1";
     const {data} = props;
-    console.log(data);
     
     const carddata = (res, index) => {
-        console.log(res.image);
         return(
 
             <Card className={boxClass}  key={index}>
-                {/* <div className="md-col-12 flex d-inline-flex imageDisp"> */}
-                {/* </div> */}
                 <Card.Body className="floatRight grey-mode">
                 <Card.Img className="imageBox border border-2 mb-3" variant="top" src={res.image} width={"400px"} height={"200px"} style={{borderRadius: "10px"}} alt="user"/>
                 <Card.Title className="text-center mb-0 pb-0" style={{ color: '#c39e5c', fontWeight: "700" }}>{res.title}</Card.Title>    
