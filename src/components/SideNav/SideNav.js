@@ -30,7 +30,7 @@ return (
    </div>
 <footer className="footerContacts mt-5 pt-5 mx-auto">
 <a className={"btn"} target={"_blank"} rel={"noreferrer"} href={"https://github.com/dassoumik"} ><img src={github} alt={"github"} width={"20px"} height={"20px"}/></a>
-<a className={"btn"} target={"_blank"} rel={"noreferrer"} href={"https://www.linkedin.com/in/soumikdas78"} ><img src={linkedin} alt={"linkedin"} width={"20px"} height={"20px"}/></a>
+<a className={"btn"} target={"_blank"} rel={"noreferrer"} href={"https://www.linkedin.com/in/sd002"} ><img src={linkedin} alt={"linkedin"} width={"20px"} height={"20px"}/></a>
 <a className={"btn"} target={"_blank"} rel={"noreferrer"} href={"tel: 904-414-6550"} data-toggle={"tooltip"} data-placement={"top"} title={"+1-904-414-6550"}><img src={phone} alt={"phone"} width={"20px"} height={"20px"}/></a>
 <a className={"btn"} target={"_blank"} rel={"noreferrer"} href={"mailto:contact.soumikdas@gmail.com"} data-toggle={"tooltip"} data-placement={"top"} title={"contact.soumikdas@gmail.com"}><img src={email} alt={"email"} width={"20px"} height={"20px"}/></a>
 <div className="text-center">
